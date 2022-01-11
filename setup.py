@@ -3,7 +3,8 @@ Manage firewall rules for a set of ip addresses and/or hostnames.
 """
 from setuptools import find_packages, setup
 
-dependencies = ["click"]
+# dependencies = ["click"]
+dependencies = []
 
 setup(
     name="dynwhitelist",

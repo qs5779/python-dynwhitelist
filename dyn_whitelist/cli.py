@@ -2,17 +2,16 @@ import argparse
 import sys
 from pathlib import Path
 
-from . import check_rules
+from . import __version__
+from .check import check_rules
 
 # import click
 # @click.command()
 # @click.option("--as-cowboy", "-c", is_flag=True, help="Greet as a cowboy.")
 # @click.argument("name", default="world", required=False)
 
-__version__ = "0.1.0"
 
-
-def main(name, as_cowboy):
+def main():
     """Manage firewall rules for a set of ip addresses and/or hostnames."""
     parser = argparse.ArgumentParser(
         # prog = 'letitdefault to basename "$0"',
