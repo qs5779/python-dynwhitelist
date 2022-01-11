@@ -7,9 +7,9 @@ dependencies = ["click"]
 
 setup(
     name="dynwhitelist",
-    version="0.1.0",
+    # version="0.1.0",
     url="https://github.com/qs5779/python-dynwhitelist",
-    license="BSD",
+    license="MIT",
     author="Quien Sabe",
     author_email="qs5779@mail.com",
     description="Manage firewall rules for a set of ip addresses \
